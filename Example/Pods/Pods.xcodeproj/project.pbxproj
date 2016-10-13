@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B457F1542C3DBFC505119E826D603EE /* Pods-brainfxck_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC5CC3645ABD33FF60435EA713378F0 /* Pods-brainfxck_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C2580AA99A3595A40D4F6E7FD1DE5AB /* Pods-brainfxck_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28F6DF3EE3B80284899727BCAFC81281 /* Pods-brainfxck_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BDC8FD06F2D288D46E589FE265B198 /* brainfxck-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A2B6B47C41418AD654A7FDD8B289174 /* brainfxck-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5492586D53438CAD2BD32C38BBB188BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		686C225E33734024A4503A103DA2737E /* Pods-brainfxck_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8414C7E504C2C81DD1BDCB537BC30612 /* Pods-brainfxck_Tests-dummy.m */; };
+		7AD16426EE4CA277A254D0C74DEAB3D9 /* Pods-brainfxck_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA3540AE80639B4BCEA80F5EBE9130 /* Pods-brainfxck_Example-dummy.m */; };
+		8152FC2C879D247F97231C6043F2F80D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AB44511218B4E1C482FFC543DB82B9F4 /* brainfxck-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEEAF01CB7056B36F841276397ECAAA /* brainfxck-dummy.m */; };
+		F00B797EE299BC9EF3FAFDFFA01DA5CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F5D9BAA5277D72654C36D9B2863FDD84 /* Brainfxck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFD17E4DD4CE94FD3527F5DD4487AB4 /* Brainfxck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		817AA878FD18899DDD6A0EBFFCFAF000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A4A177A3FF660F627187D1E58344CD9;
+			remoteInfo = brainfxck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0734166A891710798E3DA54C69348E3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		149B3CF3115F04266E5D624713C4CC27 /* Pods-brainfxck_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brainfxck_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		175CB33D78D34736BF4B2F50DF9BB083 /* Pods_brainfxck_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainfxck_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F6DF3EE3B80284899727BCAFC81281 /* Pods-brainfxck_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-brainfxck_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4DAA3540AE80639B4BCEA80F5EBE9130 /* Pods-brainfxck_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-brainfxck_Example-dummy.m"; sourceTree = "<group>"; };
+		562DF980BE8F22169EFA7BE5A4B2969F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62693F24EB8BBA5DD55F771218FD7045 /* Pods-brainfxck_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brainfxck_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		638ED3D249E509B19B55DE798C834EF2 /* Pods-brainfxck_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-brainfxck_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6426E3F16C9769E7283D56F89992C82D /* Pods_brainfxck_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainfxck_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77680A05301005C6C7946054BE70DEE7 /* Pods-brainfxck_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-brainfxck_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77A01A276D7837498BFE2B6DD92C0AE6 /* Pods-brainfxck_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brainfxck_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8275E9441B24E00337D5776E2F1EA325 /* Pods-brainfxck_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brainfxck_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8414C7E504C2C81DD1BDCB537BC30612 /* Pods-brainfxck_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-brainfxck_Tests-dummy.m"; sourceTree = "<group>"; };
+		895F4001C0CECE38EC476F1122C393CE /* brainfxck.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = brainfxck.xcconfig; sourceTree = "<group>"; };
+		8A2B6B47C41418AD654A7FDD8B289174 /* brainfxck-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "brainfxck-umbrella.h"; sourceTree = "<group>"; };
+		8B430B8E663D34E5D73749FA32DDA05F /* Pods-brainfxck_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-brainfxck_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9385DF7A3CE175E140E2A9BA70BB48C1 /* Pods-brainfxck_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-brainfxck_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98803E70B1BA2A4A49ECB70C0F27CE91 /* Pods-brainfxck_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-brainfxck_Tests.modulemap"; sourceTree = "<group>"; };
+		AEC5CC3645ABD33FF60435EA713378F0 /* Pods-brainfxck_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-brainfxck_Example-umbrella.h"; sourceTree = "<group>"; };
+		BE36240245120A3B157E049316C0F960 /* brainfxck.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = brainfxck.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D42486EBD1B0C1EF378F596B2AB74547 /* brainfxck.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = brainfxck.modulemap; sourceTree = "<group>"; };
+		D5038AB4D6C866CD9DBD6FBEB6AF7AA0 /* Pods-brainfxck_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-brainfxck_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9C27C53A60448E7C487533A91D87F34 /* Pods-brainfxck_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brainfxck_Example-resources.sh"; sourceTree = "<group>"; };
+		DF497ACC2A7B916C2B872CD186810620 /* Pods-brainfxck_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brainfxck_Tests-resources.sh"; sourceTree = "<group>"; };
+		E3DBF8FDC2944CD3B8D365259D9621DD /* Pods-brainfxck_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-brainfxck_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E722D7CEC349EADB0879905BC3390578 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEEAF01CB7056B36F841276397ECAAA /* brainfxck-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "brainfxck-dummy.m"; sourceTree = "<group>"; };
+		F5CACD6C8A34BD9B1A247CA2D860F0E1 /* brainfxck-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "brainfxck-prefix.pch"; sourceTree = "<group>"; };
+		F866B9329B7247E8307829E793DB5EBC /* Pods-brainfxck_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-brainfxck_Example.modulemap"; sourceTree = "<group>"; };
+		FBFD17E4DD4CE94FD3527F5DD4487AB4 /* Brainfxck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Brainfxck.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AD3FF6C0549AECE22F74169A75D93D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8152FC2C879D247F97231C6043F2F80D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CFB2CD38C12D07DB0B73DDC0EF32D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5492586D53438CAD2BD32C38BBB188BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEACBF880D9D0A32C98849D5084166D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00B797EE299BC9EF3FAFDFFA01DA5CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10CC9B85629FAB63837BB7CE6D6CA1FC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBFD17E4DD4CE94FD3527F5DD4487AB4 /* Brainfxck.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		48329CF317354C3688A3DF1C1A092438 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21CA68A988231F4F40537851500C547 /* Pods-brainfxck_Example */,
+				7A8E3B1F62FDC7709D8D1E19BEE10C98 /* Pods-brainfxck_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7A8E3B1F62FDC7709D8D1E19BEE10C98 /* Pods-brainfxck_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E722D7CEC349EADB0879905BC3390578 /* Info.plist */,
+				98803E70B1BA2A4A49ECB70C0F27CE91 /* Pods-brainfxck_Tests.modulemap */,
+				638ED3D249E509B19B55DE798C834EF2 /* Pods-brainfxck_Tests-acknowledgements.markdown */,
+				D5038AB4D6C866CD9DBD6FBEB6AF7AA0 /* Pods-brainfxck_Tests-acknowledgements.plist */,
+				8414C7E504C2C81DD1BDCB537BC30612 /* Pods-brainfxck_Tests-dummy.m */,
+				149B3CF3115F04266E5D624713C4CC27 /* Pods-brainfxck_Tests-frameworks.sh */,
+				DF497ACC2A7B916C2B872CD186810620 /* Pods-brainfxck_Tests-resources.sh */,
+				28F6DF3EE3B80284899727BCAFC81281 /* Pods-brainfxck_Tests-umbrella.h */,
+				62693F24EB8BBA5DD55F771218FD7045 /* Pods-brainfxck_Tests.debug.xcconfig */,
+				77A01A276D7837498BFE2B6DD92C0AE6 /* Pods-brainfxck_Tests.release.xcconfig */,
+			);
+			name = "Pods-brainfxck_Tests";
+			path = "Target Support Files/Pods-brainfxck_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D8133F3A39D5E047EF0FE9F985E1224C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B401AE40AECF10E4D526D9542C0E0507 /* Products */,
+				48329CF317354C3688A3DF1C1A092438 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7A22B61AFFD3C8C2EB3CF55D62D208 /* brainfxck */ = {
+			isa = PBXGroup;
+			children = (
+				AB1F590170B7353EEAF0827D472F0777 /* brainfxck */,
+				AD01988924E2E8A03B9808D9C9121780 /* Support Files */,
+			);
+			name = brainfxck;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AB1F590170B7353EEAF0827D472F0777 /* brainfxck */ = {
+			isa = PBXGroup;
+			children = (
+				10CC9B85629FAB63837BB7CE6D6CA1FC /* Classes */,
+			);
+			path = brainfxck;
+			sourceTree = "<group>";
+		};
+		AD01988924E2E8A03B9808D9C9121780 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42486EBD1B0C1EF378F596B2AB74547 /* brainfxck.modulemap */,
+				895F4001C0CECE38EC476F1122C393CE /* brainfxck.xcconfig */,
+				EEEEAF01CB7056B36F841276397ECAAA /* brainfxck-dummy.m */,
+				F5CACD6C8A34BD9B1A247CA2D860F0E1 /* brainfxck-prefix.pch */,
+				8A2B6B47C41418AD654A7FDD8B289174 /* brainfxck-umbrella.h */,
+				0734166A891710798E3DA54C69348E3E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/brainfxck";
+			sourceTree = "<group>";
+		};
+		B401AE40AECF10E4D526D9542C0E0507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE36240245120A3B157E049316C0F960 /* brainfxck.framework */,
+				6426E3F16C9769E7283D56F89992C82D /* Pods_brainfxck_Example.framework */,
+				175CB33D78D34736BF4B2F50DF9BB083 /* Pods_brainfxck_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8133F3A39D5E047EF0FE9F985E1224C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E7A22B61AFFD3C8C2EB3CF55D62D208 /* brainfxck */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F21CA68A988231F4F40537851500C547 /* Pods-brainfxck_Example */ = {
+			isa = PBXGroup;
+			children = (
+				562DF980BE8F22169EFA7BE5A4B2969F /* Info.plist */,
+				F866B9329B7247E8307829E793DB5EBC /* Pods-brainfxck_Example.modulemap */,
+				77680A05301005C6C7946054BE70DEE7 /* Pods-brainfxck_Example-acknowledgements.markdown */,
+				9385DF7A3CE175E140E2A9BA70BB48C1 /* Pods-brainfxck_Example-acknowledgements.plist */,
+				4DAA3540AE80639B4BCEA80F5EBE9130 /* Pods-brainfxck_Example-dummy.m */,
+				E3DBF8FDC2944CD3B8D365259D9621DD /* Pods-brainfxck_Example-frameworks.sh */,
+				D9C27C53A60448E7C487533A91D87F34 /* Pods-brainfxck_Example-resources.sh */,
+				AEC5CC3645ABD33FF60435EA713378F0 /* Pods-brainfxck_Example-umbrella.h */,
+				8275E9441B24E00337D5776E2F1EA325 /* Pods-brainfxck_Example.debug.xcconfig */,
+				8B430B8E663D34E5D73749FA32DDA05F /* Pods-brainfxck_Example.release.xcconfig */,
+			);
+			name = "Pods-brainfxck_Example";
+			path = "Target Support Files/Pods-brainfxck_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FADE8230D0E503D7C98D7B53B4B6B28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BDC8FD06F2D288D46E589FE265B198 /* brainfxck-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38C5054D290B1023562E5796364591AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2580AA99A3595A40D4F6E7FD1DE5AB /* Pods-brainfxck_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD8E939C613D0F262045134E6EE669DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B457F1542C3DBFC505119E826D603EE /* Pods-brainfxck_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50CCD3E159EDD0BE6442B36719320439 /* Pods-brainfxck_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA98D8F579463DD09525A43FFCED3AC /* Build configuration list for PBXNativeTarget "Pods-brainfxck_Example" */;
+			buildPhases = (
+				0D3C224EF4F8FF97405D08E4D3E63F6F /* Sources */,
+				A7CFB2CD38C12D07DB0B73DDC0EF32D8 /* Frameworks */,
+				BD8E939C613D0F262045134E6EE669DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA475B1A10AE53ED0B053A5D29FE9B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-brainfxck_Example";
+			productName = "Pods-brainfxck_Example";
+			productReference = 6426E3F16C9769E7283D56F89992C82D /* Pods_brainfxck_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A4A177A3FF660F627187D1E58344CD9 /* brainfxck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45231DEB7D343F32C3EFC7A6815819E9 /* Build configuration list for PBXNativeTarget "brainfxck" */;
+			buildPhases = (
+				2BEDD431D59A8E5D947D0FB876EEDE1B /* Sources */,
+				AEACBF880D9D0A32C98849D5084166D9 /* Frameworks */,
+				1FADE8230D0E503D7C98D7B53B4B6B28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brainfxck;
+			productName = brainfxck;
+			productReference = BE36240245120A3B157E049316C0F960 /* brainfxck.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A663A3CE0A86B2C67021B4A980665AD3 /* Pods-brainfxck_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD7DAFF486119655CA5E646E2477458 /* Build configuration list for PBXNativeTarget "Pods-brainfxck_Tests" */;
+			buildPhases = (
+				13FFBC752F62943E46B7E206B99F2D64 /* Sources */,
+				70AD3FF6C0549AECE22F74169A75D93D /* Frameworks */,
+				38C5054D290B1023562E5796364591AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-brainfxck_Tests";
+			productName = "Pods-brainfxck_Tests";
+			productReference = 175CB33D78D34736BF4B2F50DF9BB083 /* Pods_brainfxck_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					50CCD3E159EDD0BE6442B36719320439 = {
+						LastSwiftMigration = 0800;
+					};
+					5A4A177A3FF660F627187D1E58344CD9 = {
+						LastSwiftMigration = 0800;
+					};
+					A663A3CE0A86B2C67021B4A980665AD3 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B401AE40AECF10E4D526D9542C0E0507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A4A177A3FF660F627187D1E58344CD9 /* brainfxck */,
+				50CCD3E159EDD0BE6442B36719320439 /* Pods-brainfxck_Example */,
+				A663A3CE0A86B2C67021B4A980665AD3 /* Pods-brainfxck_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D3C224EF4F8FF97405D08E4D3E63F6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AD16426EE4CA277A254D0C74DEAB3D9 /* Pods-brainfxck_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13FFBC752F62943E46B7E206B99F2D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				686C225E33734024A4503A103DA2737E /* Pods-brainfxck_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BEDD431D59A8E5D947D0FB876EEDE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB44511218B4E1C482FFC543DB82B9F4 /* brainfxck-dummy.m in Sources */,
+				F5D9BAA5277D72654C36D9B2863FDD84 /* Brainfxck.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBA475B1A10AE53ED0B053A5D29FE9B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = brainfxck;
+			target = 5A4A177A3FF660F627187D1E58344CD9 /* brainfxck */;
+			targetProxy = 817AA878FD18899DDD6A0EBFFCFAF000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		018295F55F81A9FA43F27928B8766DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895F4001C0CECE38EC476F1122C393CE /* brainfxck.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/brainfxck/brainfxck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/brainfxck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/brainfxck/brainfxck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = brainfxck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C52C3559C01427171B2C6D1262AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62693F24EB8BBA5DD55F771218FD7045 /* Pods-brainfxck_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-brainfxck_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-brainfxck_Tests/Pods-brainfxck_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_brainfxck_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		56243254B06C42447B67E9B53E354AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77A01A276D7837498BFE2B6DD92C0AE6 /* Pods-brainfxck_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-brainfxck_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-brainfxck_Tests/Pods-brainfxck_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_brainfxck_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7154B63D7ED3D65E0D25FC7C49505714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B430B8E663D34E5D73749FA32DDA05F /* Pods-brainfxck_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-brainfxck_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-brainfxck_Example/Pods-brainfxck_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_brainfxck_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6BCAD5D614A30780BDC5DF5BE13B3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895F4001C0CECE38EC476F1122C393CE /* brainfxck.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/brainfxck/brainfxck-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/brainfxck/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/brainfxck/brainfxck.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = brainfxck;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B01641565EABB2EFF5C401F1CAAC9AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8275E9441B24E00337D5776E2F1EA325 /* Pods-brainfxck_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-brainfxck_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-brainfxck_Example/Pods-brainfxck_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_brainfxck_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BA98D8F579463DD09525A43FFCED3AC /* Build configuration list for PBXNativeTarget "Pods-brainfxck_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B01641565EABB2EFF5C401F1CAAC9AD7 /* Debug */,
+				7154B63D7ED3D65E0D25FC7C49505714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45231DEB7D343F32C3EFC7A6815819E9 /* Build configuration list for PBXNativeTarget "brainfxck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BCAD5D614A30780BDC5DF5BE13B3F1 /* Debug */,
+				018295F55F81A9FA43F27928B8766DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD7DAFF486119655CA5E646E2477458 /* Build configuration list for PBXNativeTarget "Pods-brainfxck_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C52C3559C01427171B2C6D1262AB16 /* Debug */,
+				56243254B06C42447B67E9B53E354AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

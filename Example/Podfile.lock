@@ -1,0 +1,16 @@
+PODS:
+  - brainfxck (0.1.0)
+
+DEPENDENCIES:
+  - brainfxck (from `../`)
+
+EXTERNAL SOURCES:
+  brainfxck:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  brainfxck: 6fe3a38dee3b17772f2f2a672828ce1efc751967
+
+PODFILE CHECKSUM: 45c82ef731701e7951725c71a0813c4402ef8fae
+
+COCOAPODS: 1.0.1

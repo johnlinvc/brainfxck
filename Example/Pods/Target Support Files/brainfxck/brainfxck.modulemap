@@ -1,0 +1,6 @@
+framework module brainfxck {
+  umbrella header "brainfxck-umbrella.h"
+
+  export *
+  module * { export * }
+}
