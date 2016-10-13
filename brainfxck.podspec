@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  A Brainfxck intepreter in Swift
+  A Brainfxck intepreter in Swift. support strings as I/O
                        DESC
 
   s.homepage         = 'https://github.com/johnlinvc/brainfxck'
