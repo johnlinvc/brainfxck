@@ -53,6 +53,7 @@ public struct Brainfxck{
                     PC = jumpTable.last!
                 }
             default:
+                PC = code.characters.index(after: PC)
                 continue
             }
         }
